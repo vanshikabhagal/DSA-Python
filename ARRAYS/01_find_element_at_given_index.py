@@ -7,4 +7,3 @@ if(index>len(arr)):
 #output
 else:
     print(f"The value of arr[{index}] is {arr[index]}.")
-
