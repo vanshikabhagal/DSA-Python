@@ -1,6 +1,6 @@
 def Alternate(array):
     result = []
-    for index in range(0, len(array, 2)):
+    for index in range(0, len(array), 2)):
         result.append(array[index])
     return result
 
