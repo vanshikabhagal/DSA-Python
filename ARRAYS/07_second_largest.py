@@ -11,11 +11,11 @@ class SecondLargest:
         second_largest = -1
         new_arr =[]
         for element in arr:
-            if(element != largest(arr)):
+            if(element != largest):
                 new_arr.append(element)
         
         if(new_arr == []):
-            return -1
+            return second_largest
         
         for element in new_arr:
             if(second_largest < element):
