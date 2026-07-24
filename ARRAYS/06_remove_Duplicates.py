@@ -5,12 +5,9 @@ class Solution:
             if(nums[read] != nums[write - 1]):
                 nums[write] = nums[read]
                 write += 1
-        return write
+        return nums, write
 
 nums = [0,1,1,2,3,3,3,4,4]
 
 s1 = Solution()
-k = s1.removeDuplicates(nums)
-
-print(k)
-print(nums[:k])
+print(s1.removeDuplicates(nums))
