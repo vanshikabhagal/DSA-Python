@@ -8,6 +8,6 @@ class Solution:
         profit = max(profit, price - buy_price)
         return profit
 
-prices = [7,6,4,3,1]
+prices = [7,1,6,4,3]
 s1 = Solution()
 print(s1.profit(prices))
